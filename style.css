@@ -1,0 +1,395 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background: #f0f0f0;
+    color: #333;
+    font-size: 16px; /* Base font size */
+}
+
+/* Header styling */
+header {
+    
+    color:
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid linear-gradient(to right, #6B6BFF, #FF6B6B);;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+/* Main styling */
+main {
+    padding: 20px;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 30px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.experience-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  margin: 0;
+  background: linear-gradient(45deg, #3498db, #9b59b6); /* Gradient background */
+  color: #fff;
+  overflow: hidden;
+}
+
+#experience {
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for depth */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  opacity: 1;
+  transition: transform 0.5s ease-in-out; /* Smooth transform effect */
+}
+
+.experience-section:hover #experience {
+  transform: scale(1.1); /* Scale up on hover for interaction */
+}
+/* Featured Products styling */
+.featured-products .product {
+    margin-bottom: 20px;
+    border: 2px solid #FFD700;
+    border-radius: 15px;
+    padding: 20px;
+    background: linear-gradient(to right, #fff, #f4f4f4);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.home {
+  background: linear-gradient(to right, #6B6BFF, #FF6B6B);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.home h2 {
+  font-size: 2.5em; /* Larger font size */
+}
+.home p{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 1.3em; /* Increased font size */
+}
+
+.featured-products .product:hover {
+    transform: scale(1.05);
+}
+
+.featured-products img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.featured-products h3 {
+    color: #333;
+    margin-top: 10px;
+    font-size: 2em; /* Larger font size */
+    font-style: italic;
+}
+
+.featured-products p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.2em; /* Increased font size */
+}
+
+/* Latest Trends styling */
+.latest-trends {
+    background: linear-gradient(to right, #6B6BFF, #FF6B6B);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.latest-trends h2 {
+    font-size: 2.5em; /* Larger font size */
+}
+
+.latest-trends p {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 1.3em; /* Increased font size */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-info, .contact-info, .social-media {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-info h3, .contact-info h3, .social-media h3 {
+    color: #f39c12;
+}
+
+.contact-info ul, .social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li, .social-media ul li {
+    margin-bottom: 10px;
+}
+
+.social-media ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.social-media ul li a:hover {
+    color: #f39c12;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+/* Button styling */
+.button-bg {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #FFD700;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #6B6BFF;
+}
+
+/* New Section - Testimonials */
+.testimonials {
+    background: linear-gradient(to right, #6B6BFF, #FF6B6B);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials h2 {
+    font-size: 2.5em;
+}
+
+.testimonials p {
+    font-size: 1.3em;
+}
+
+/* Background Image */
+body {
+    background: url('pics/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    header img {
+        width: 80%; /* Reduce logo size */
+    }
+
+    nav ul li {
+        margin-right: 10px; /* Reduce margin between nav items */
+    }
+
+    .button {
+        font-size: 1em; /* Decrease button font size */
+        padding: 12px 25px; /* Adjust button padding */
+    }
+}
+
+/* ... Existing CSS ... */
+
+/* ... Existing CSS ... */
+
+/* New Section - Services */
+.services {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.services h2 {
+    color: #333;
+}
+
+.services ul {
+    list-style-type: none;
+}
+
+.services li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* New Section - Gallery */
+.gallery {
+    background: linear-gradient(to right, #FFD700, #FF6B6B);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.gallery h2 {
+    font-size: 2.5em;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.gallery-images img {
+    width: 30%; /* Adjust image width as needed */
+    border-radius: 10px;
+}
+
+/* ... Existing CSS ... */
+
+/* ... Existing CSS ... */
+
+/* New Section - Contact */
+.contact {
+    background: linear-gradient(to right, #FFD700, #FF6B6B);
+    color: #fff;
+    padding: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px
+}
+
+.contact h2 {
+    font-size: 2em; /* Slightly smaller font size */
+}
+
+#contactForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    max-width: 400px; /* Reduced maximum width */
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    margin-bottom: 10px; /* Reduced margin bottom */
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1em; /* Slightly smaller font size */
+}
+
+button {
+    background-color: #fff;
+    color: #FF6B6B;
+    padding: 8px 15px; /* Reduced padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em; /* Slightly smaller font size */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF6B6B;
+    color: #fff;
+}
+
+
+/* ... Existing CSS ... */
+
+/* ... Existing styles ... */
+
+.gallery {
+    background: linear-gradient(to right, #FFD700, #FF6B6B);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensure the parent container has a relative position */
+}
+
+.more-button {
+    position: absolute;
+    top: 10px; /* Adjust the distance from the top */
+    right: 10px; /* Adjust the distance from the right */
+}
+
+/* ... Existing styles ... */

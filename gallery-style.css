@@ -1,0 +1,96 @@
+
+/* ... Existing styles ... */
+
+body {
+    background-image: url('pics/background.jpg'); /* Replace 'your-background-image.jpg' with the actual path to your background image */
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+h1 {
+  color: #3498db;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  line-height: 1.2;
+}
+
+h2 {
+  color: #2ecc71;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  line-height: 1.3;
+}
+
+h1, h2 {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h1 {
+  color: #3498db;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  -webkit-text-stroke: 1px black;
+}
+
+h2 {
+  color: #2ecc71;
+  font-size: 2em;
+  margin-bottom: 8px;
+  -webkit-text-stroke: 1px black;
+}
+hr {
+  block-size: 5px
+}
+
+.gallery-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.gallery-section img {
+    width: 22%; /* Adjust image width as needed */
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-section img:hover {
+    transform: scale(2.1); /* Add a slight scale effect on hover */
+}
+
+#section1#section1 {
+    /* Remove background-color property */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-section img {
+    width: 22%; /* Adjust image width as needed */
+    border: 2px solid #000; /* Add a 2px black border to each image */
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    margin-bottom: 2%; /* Add a small margin between images */
+}
+
+#section2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#section3 {
+   display: flex;
+    flex-wrap: wrap;
+}
+
+#section4 {
+    /* Customize background color or other styles for section 4 */
+}
+
+/* ... Existing styles ... */
